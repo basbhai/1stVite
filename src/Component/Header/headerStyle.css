@@ -1,0 +1,60 @@
+.navbar {
+  padding: 0.75rem;
+}
+.scrolled {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.navbar a,
+.navbar a:focus {
+  text-transform: none;
+  font-size: clamp(0.75rem, 7vw, 1.5rem);
+  padding: 0.5rem;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: var(--toggle-icon-url);
+}
+
+.navbar-light .navbar-toggler {
+  border: 1px solid white;
+}
+
+.nav-link {
+  padding: 1.5rem 1rem;
+  position: relative;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: 0.35s;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
