@@ -60,7 +60,7 @@
 
 .progress .progress-bar {
   position: relative;
-  background-color: black;
+  background-color: blue;
   height: 0.15rem;
   animation: animate-positive 2s;
   overflow: visible;
