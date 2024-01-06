@@ -1,43 +1,57 @@
+#services {
+  background-color: wheat;
+  z-index: 2;
+
+  font-size: clamp(0.75rem, 4.5vw, 1rem);
+}
+#services h1 {
+  font-size: 5rem;
+}
+
+.services-mf {
+  min-height: 100svh;
+  transform: translateZ(-2x);
+}
+
 .service-box {
-    background-color: #fff;
-    padding: 2.5rem 1.3rem;
-    border-radius: 1rem;
-    margin-bottom: 3rem;
-    text-align: center;
-  }
-  
-  .service-box:hover .ico-circle {
-    transition: all 500ms ease;
-    color: #fff;
-    background-color: #0078ff;
-    box-shadow: 0 0 0 10px #cde1f8;
-  }
-  
-  .service-box .service-ico {
-    margin-bottom: 1rem;
-    color: #1e1e1e;
-  }
-  
-  .service-box .ico-circle {
-    transition: all 500ms ease;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .service-box .ico-circle i {
-    line-height: 0;
-    font-size: 40px;
-  }
-  
-  .service-box .s-title {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 0.4rem 0;
-  }
-  
-  .service-box .s-description {
-    color: #4e4e4e;
-  }
-  
+  background-color: #fff;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.service-box:hover .ico-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.service-box .service-ico {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+}
+
+.service-box .ico-circle {
+  transition: all 500ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-box .ico-circle i {
+  line-height: 0;
+  font-size: 40px;
+}
+
+.service-box .s-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+
+.service-box .s-description {
+  color: #4e4e4e;
+}
